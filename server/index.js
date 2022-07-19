@@ -33,7 +33,7 @@ const nodemailer = require('nodemailer')
 var userid = 27 ;
 const saltRounds = 10;
 
-const url = 'http//:localhost:3000/verify/:' + userid
+
 
 
 
@@ -173,7 +173,7 @@ app.post('/register', async(req, res)=> {
                                     transporter.sendMail({
                                         to: email,
                                         subject: 'verify Account',
-                                        html: '<p>click localhost:3001/verify/' + userid + ' <a href="localhost:3001/verify/' + userid + '">here</a></p> to confirm your email'
+                                        html: '<p>copy this link to your browser localhost:3001/verify/' + userid + ' <a href="localhost:3001/verify/' + userid + '">*-*</a></p> to confirm your email'
                                     })
 
                                 }
