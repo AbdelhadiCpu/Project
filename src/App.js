@@ -7,7 +7,7 @@ import SignUp from './components/SingUp/signup';
 import Menu2 from './components/Menu/menu2';
 import ReSet from './components/Reset/reset';
 import Page1 from './components/page1/page1';
-import Search from './components/Search/search';
+
 
 
 
@@ -24,7 +24,7 @@ function App(){
     <Route  exact path = '/register' element={<SignUp/>}/>
     <Route exact path='/reset' element={<ReSet />} />
     <Route exact path ='/firstpage' element={<Page1/>}/>
-    <Route exact path ='/home/search' element={<Search/>}/>
+    
    
     </Routes>
 
