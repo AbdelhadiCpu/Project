@@ -1,0 +1,109 @@
+/* ===== Google Font Import - Poformsins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+
+/*.body {
+    background-color: rgb(248, 248, 248);
+    margin-left: 360px;
+    margin-right: 360px;
+}*/
+
+.container {
+    background-color: white;
+    margin-left: 360px;
+    margin-right:360px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    box-shadow: 0 0 4px 0 rgb(134, 134, 134);
+    border-radius: 5px;
+
+
+
+}
+
+.formtitle {
+    font-size: 12px;
+    font-weight: 550;
+    color: rgb(80, 78, 78);
+    margin: auto;
+    padding-left: 250px;
+}
+
+.control {
+    display:flexbox;
+    padding-left: 30px;
+    padding-top: 20px;
+
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    border: none;
+    border: 0.5px solid rgb(178, 174, 174);
+    border-radius: 3px;
+    box-sizing: border-box;
+
+}
+
+i {
+    color: gray;
+    position: absolute;
+    right:400px;
+
+
+
+}
+
+.g-recaptcha {
+    margin-top: 10px;
+    margin-left: 130px
+}
+
+.logbtn {
+    color: white;
+    font-size: 14px;
+    font-weight: 550;
+    background-color: rgb(49, 117, 233);
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 500px;
+    border: none;
+    border-radius: 2px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+
+}
+
+.festablishment{
+    color:rgb(131, 124, 124);
+    width: 500px;
+    height: 30px;
+    border: none;
+    border: 0.5px solid rgb(178, 174, 174);
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: white;
+  
+}
+input[type='checkbox']{
+    width: 15px;
+    
+}
+li{
+    display: flex;
+    margin-left: 28px;
+}
+
+p{
+    font-size: 11px;
+}
+
+#box{
+    display: flex;
+    align-items: center;
+}
+
+
