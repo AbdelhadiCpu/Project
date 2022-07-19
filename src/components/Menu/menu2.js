@@ -35,7 +35,7 @@ function Menu2()  {
                         <i className="fa fa-caret-down"></i>
                     </button>
                     <div className="dropdown-content">
-                        <a onClick={()=>{navigate('/home/search')}} href="">page 1</a>
+                        <a  href="">page 1</a>
                         <a href="#">page 2</a>
                         <a href="#">page 3</a>
                         <a href="#">page 3</a>
