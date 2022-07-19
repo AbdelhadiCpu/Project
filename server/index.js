@@ -173,7 +173,7 @@ app.post('/register', async(req, res)=> {
                                     transporter.sendMail({
                                         to: email,
                                         subject: 'verify Account',
-                                        html: '<p>copy this link to your browser localhost:3001/verify/' + userid + ' <a href="localhost:3001/verify/' + userid + '">*-*</a></p> to confirm your email'
+                                        html: '<p>copy this link to your browser *-* localhost:3001/verify/' + userid + '<a href="localhost:3001/verify/' + userid + '">*-*</a></p> to confirm your email'
                                     })
 
                                 }
